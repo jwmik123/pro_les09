@@ -1,0 +1,1 @@
+function initApp(){app.randomStudentsView.init(),app.studentsModel.loadStudents()}var app=app||{};window.addEventListener("load",initApp);

@@ -1,0 +1,1 @@
+var app=app||{};app.studentsModel=Object.create(eventDispatcher),app.studentsModel.loadStudents=function(){var t=new XMLHttpRequest},app.studentsModel.getRandomStudent=function(){var t=Math.floor(Math.random()*this.students.length);return this.students[t]};

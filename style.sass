@@ -1,0 +1,224 @@
+//mixins
+
+$blue-eye: #3498db
+$grey-eye: #eeeeee
+$green-eye: #2ecc71
+$brown-eye: #8e3900
+$red-eye: #d64541
+$background-color: $grey-eye
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,700')
+
+
+body
+  padding: 0
+  margin: 0
+  font-family: 'Roboto', sans-serif
+
+
+
+
+
+  //.leerling-app
+  //  background-color: $background-color
+  //  border: 1px solid black
+  //  color: black
+  //  margin-left: 50px
+  //  padding-left: 10px
+  //  padding-right: 10px
+  //  height: 890px
+  //  width: 650px
+  //  margin: 0 auto
+  //  .leerling
+  //    a
+  //      text-decoration: none
+  //      color: lighten(darkblue, 25%)
+  //      font-size: 17px
+  //      margin-left: 5px
+  //      &:hover
+  //        color: darkblue
+  //  .top-leerling
+  //    .top-table-select
+  //      .top
+  //        border: none
+  //        margin-bottom: 5px
+  //        margin-left: 20px
+  //        height: 30px
+  //        width: 250px
+  //        font-size: 18px
+  //  .leerling
+  //    img
+  //      float: left
+  //      margin-right: 10px
+  //      box-shadow: 5px 5px 5px grey
+  //    .leerling-info
+  //      height: 270px
+  //  .top-table-select
+  //    margin-left: 20px
+  //    padding-top: 15px
+  //    font-weight: 700
+  //  .top-table
+  //    td
+  //      border: .1px solid grey
+  //      padding-left: 85px
+  //      padding-right: 91px
+  //  .table-eyes
+  //    table
+  //      float: right
+  //      td
+  //        border: .1px solid grey
+  //        padding-left: 40px
+  //        padding-right: 40px
+  //        padding-top: 10px
+  //        padding-bottom: 10px
+  //  .eyes
+  //    width: 250px
+  //    height: 200px
+  //    border: 1px solid grey
+  //    border-radius: 80%
+  //    margin-left: 60px
+  //    margin-top: 100px
+  //    .left-eye
+  //      border: 1px solid grey
+  //      width: 50px
+  //      height: 50px
+  //      border-radius: 50px
+  //      margin:
+  //        left: 50px
+  //        top: 30px
+  //      .iris
+  //        border: 1px solid $green-eye
+  //        width: 20px
+  //        height: 20px
+  //        border-radius: 50px
+  //        background-color: $green-eye
+  //        margin:
+  //          left: 13px
+  //          top: 13px
+  //        .pupil
+  //          border: 1px solid black
+  //          width: 8px
+  //          height: 8px
+  //          background-color: black
+  //          border-radius: 50px
+  //          margin:
+  //            left: 6px
+  //            top: 6px
+  //    .right-eye
+  //      border: 1px solid grey
+  //      width: 50px
+  //      height: 50px
+  //      border-radius: 50px
+  //      margin:
+  //        left: 150px
+  //        top: -52px
+  //      .iris
+  //        border: 1px solid $green-eye
+  //        width: 20px
+  //        height: 20px
+  //        border-radius: 50px
+  //        background-color: $green-eye
+  //        margin:
+  //          left: 13px
+  //          top: 13px
+  //        .pupil
+  //          border: 1px solid black
+  //          width: 8px
+  //          height: 8px
+  //          background-color: black
+  //          border-radius: 50px
+  //          margin:
+  //            left: 6px
+  //            top: 6px
+  //
+  //  .mouth
+  //    width: 120px
+  //    height: 70px
+  //    border: 1px solid grey
+  //    background: black
+  //    margin-top: -100px
+  //    margin-left: 120px
+  //    border-radius: 50%
+  //    z-index: 1
+  //    .tongue
+  //      width: 50px
+  //      height: 40px
+  //      border: 1px solid red
+  //      border-radius: 40%
+  //      background-color: red
+  //      margin-top: 28px
+  //      margin-left: 25px
+      // .teeth, .teeth1, .teeth2, .teeth3, .teeth4
+      //   width: 20px
+      //   height: 20px
+      //   border: 1px solid white
+      //   background-color: white
+      //   margin-top: -20px
+      //   z-index: -1
+      //   margin-left: 20px
+      // .teeth1
+      //   margin-left: 20px
+      //   margin-top: -45px
+      // .teeth2
+      //   margin-left: 60px
+      // .teeth3
+      //   margin-left: 80px
+      // .teeth4
+      //   margin-left: 100px
+      //   margin-top: -30px
+.header
+  background-color: white
+  box-shadow: 10px 0px 10px 10px lightgrey
+  padding-top: 20px
+  padding-bottom: 20px
+  h2
+    margin-top: 5px
+    color:rgba(255,0,0,.7)
+    font-family: sans-serif
+    margin-bottom: 5px
+    margin-left: 100px
+  hr
+    border: 1px solid white
+    width: 50px
+    float: left
+    margin-left: 100px
+    margin-bottom: 10px
+
+.container
+  margin: 0 auto
+  margin-top: 100px
+  width: 750px
+  padding-left: 100px
+  padding-right: 100px
+  background-color: white
+  border: 1px solid black
+  img
+    margin-top: 50px
+  #num
+    width: 100px
+    text-align: center
+    padding-top: 10px
+    padding-bottom: 10px
+    background-color: #2ecc71
+    &:hover
+      background-color: $blue-eye
+      transition: ease-in-out 350ms
+  #name
+    width: 500px
+    text-align: center
+    padding-top: 10px
+    padding-bottom: 10px
+    background-color: #2ecc71
+    &:hover
+      background-color: $blue-eye
+      transition: ease-in-out 350ms
+  #height
+    width: 100px
+    text-align: center
+    padding-top: 10px
+    padding-bottom: 10px
+
+    background-color: #2ecc71
+    &:hover
+      background-color: $blue-eye
+      transition: ease-in-out 150ms

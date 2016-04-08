@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,700");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #d64541;
+}
+
+.header {
+  background-color: black;
+  box-shadow: 0px 5px 10px black;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .header h2 {
+    margin-top: 5px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin-left: 100px; }
+  .header hr {
+    border: 1px solid white;
+    width: 50px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 10px; }
+
+.container {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 750px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: white;
+   }
+  .container img {
+    margin-top: 50px; }
+  .container #num {
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2ecc71; }
+    .container #num:hover {
+      background-color: #3498db;
+      transition: ease-in-out 350ms; }
+  .container #name {
+    width: 500px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2ecc71; }
+    .container #name:hover {
+      background-color: #3498db;
+      transition: ease-in-out 350ms; }
+  .container #height {
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2ecc71; }
+    .container #height:hover {
+      background-color: #3498db;
+      transition: ease-in-out 150ms; }
+
+
+  #students-template {
+    float: right;
+  }
+  
+  
+  #shuffle {
+    float: left;
+    background-color: #3498db;
+    width: 950px;
+    text-align: center;
+    margin-left: -100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: hand;
+  }
+
+  h3 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
